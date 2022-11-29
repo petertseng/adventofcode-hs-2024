@@ -1,0 +1,7 @@
+alt-input/
+bin/00_template2.hs
+dist-newstyle/
+.ghc.environment.*
+secrets
+y201[56789]
+y202[0123]
