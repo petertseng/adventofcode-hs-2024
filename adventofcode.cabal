@@ -55,3 +55,8 @@ executable 03_mull_it_over
   import: bin, flags
   build-depends: base, adventofcode2024, aocsplit
   main-is:       03_mull_it_over.hs
+
+executable 04_ceres_search
+  import: bin, flags
+  build-depends: base, adventofcode2024, containers
+  main-is:       04_ceres_search.hs
