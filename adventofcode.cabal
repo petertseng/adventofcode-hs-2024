@@ -81,3 +81,8 @@ executable 08_resonant_collinearity
   import: bin, flags
   build-depends: base, adventofcode2024, containers
   main-is:       08_resonant_collinearity.hs
+
+executable 09_disk_defragmenter
+  import: bin, flags
+  build-depends: base, adventofcode2024, containers
+  main-is:       09_disk_defragmenter.hs
