@@ -91,3 +91,8 @@ executable 10_hoof_it
   import: bin, flags
   build-depends: base, adventofcode2024, containers
   main-is:       10_hoof_it.hs
+
+executable 11_plutonian_pebbles
+  import: bin, flags
+  build-depends: base, adventofcode2024, containers
+  main-is:       11_plutonian_pebbles.hs
