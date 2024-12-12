@@ -96,3 +96,9 @@ executable 11_plutonian_pebbles
   import: bin, flags
   build-depends: base, adventofcode2024, containers
   main-is:       11_plutonian_pebbles.hs
+
+executable 12_garden_groups
+  import: bin, flags
+  -- !? added in array 0.5.6.0
+  build-depends: base, adventofcode2024, array >= 0.5.6.0, containers
+  main-is:       12_garden_groups.hs
