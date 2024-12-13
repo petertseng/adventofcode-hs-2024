@@ -102,3 +102,8 @@ executable 12_garden_groups
   -- !? added in array 0.5.6.0
   build-depends: base, adventofcode2024, array >= 0.5.6.0, containers
   main-is:       12_garden_groups.hs
+
+executable 13_claw_contraption
+  import: bin, flags
+  build-depends: base, adventofcode2024, aocsplit
+  main-is:       13_claw_contraption.hs
