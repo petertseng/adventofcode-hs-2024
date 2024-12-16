@@ -35,6 +35,12 @@ library
   exposed-modules: AdventOfCode
   build-depends:   base
 
+library aocsearch
+  import: flags
+  hs-source-dirs:  lib
+  exposed-modules: AdventOfCode.Search
+  build-depends:   base, containers
+
 library aocsplit
   import: flags
   hs-source-dirs:  lib
@@ -117,3 +123,8 @@ executable 15_warehouse_woes
   import: bin, flags
   build-depends: base, adventofcode2024, aocsplit, containers
   main-is:       15_warehouse_woes.hs
+
+executable 16_reindeer_maze
+  import: bin, flags
+  build-depends: base, adventofcode2024, aocsearch, array, containers
+  main-is:       16_reindeer_maze.hs
