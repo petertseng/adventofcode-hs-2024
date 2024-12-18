@@ -134,3 +134,8 @@ executable 17_chronospatial_computer
   -- !? added in array 0.5.6.0
   build-depends: base, adventofcode2024, aocsplit, array >= 0.5.6.0
   main-is:       17_chronospatial_computer.hs
+
+executable 18_ram_run
+  import: bin, flags
+  build-depends: base, adventofcode2024, aocsplit, aocsearch, containers
+  main-is:       18_ram_run.hs
