@@ -150,3 +150,8 @@ executable 20_race_condition
   -- !? added in array 0.5.6.0
   build-depends: base, adventofcode2024, array >= 0.5.6.0, containers
   main-is:       20_race_condition.hs
+
+executable 21_keypad_conundrum
+  import: bin, flags
+  build-depends: base, adventofcode2024, array
+  main-is:       21_keypad_conundrum.hs
