@@ -155,3 +155,8 @@ executable 21_keypad_conundrum
   import: bin, flags
   build-depends: base, adventofcode2024, array
   main-is:       21_keypad_conundrum.hs
+
+executable 22_monkey_market
+  import: bin, flags
+  build-depends: base, adventofcode2024, array
+  main-is:       22_monkey_market.hs
