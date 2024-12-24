@@ -165,3 +165,8 @@ executable 23_lan_party
   import: bin, flags
   build-depends: base, adventofcode2024, aocsplit, array, containers
   main-is:       23_lan_party.hs
+
+executable 24_crossed_wires
+  import: bin, flags
+  build-depends: base, adventofcode2024, aocsplit, containers
+  main-is:       24_crossed_wires.hs
